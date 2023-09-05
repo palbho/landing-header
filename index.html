@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--css style-->
+    <link rel="stylesheet" href="style.css">
+    <!--font awesome link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Welcome to nature</title>
+</head>
+
+<body>
+    <div class="main-container">
+        <nav class="navbar">
+            <img class="logo" src="img/logo.png">
+            <ul id="myLinks">
+                <li><a>Home</a</li>
+                <li><a>About Us</a></li>
+                <li><a>Work</a></li>
+                <li><a>Info</a></li>
+            </ul>
+            <a href="#" class="icon" onclick="myFunction()">
+                <i class="fa fa-bars"></i>
+              </a>
+        </nav>
+        <div class="header-text">
+
+            <h1>Welcome to <span class="nature">Nature</span></h1>
+            <p>It is great experience to sit and watch the nature. <br>
+              Come with us and join the nature glory and silent<br>
+              peaceful life.
+            </p>
+            <button class="btn">Get Started</button>
+        </div>
+        
+    </div>
+
+    <script>
+        function myFunction() {
+          var x = document.getElementById("myLinks");
+
+          if(x.style.display === "block"){
+            x.style.display ="none";
+          }else{
+            x.style.display ="block";
+          }
+      }
+        </script>
+</body>
+
+</html>
